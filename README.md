@@ -1,2 +1,2 @@
-# pollor
+# Pollor
 Pollor App
