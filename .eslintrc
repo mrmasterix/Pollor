@@ -1,0 +1,40 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "js": true,
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "semi": 2,
+    "max-len": [1, 150, 2],
+    "prop-types": [0],
+    "indent": ["error", 2, {"SwitchCase": 1}],
+    "react/prop-types": 0,
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true,
+        "optionalDependencies": true,
+        "peerDependencies": true
+      }
+    ]
+  },
+  "extends": ["airbnb-base"],
+  "globals": {
+    "require": true
+  }
+}
