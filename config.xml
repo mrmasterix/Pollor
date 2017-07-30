@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.masterix.pollor" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Pollor</name>
+    <description>
+    Pollor application
+  </description>
+    <author email="mrmasterix@gmail.com" href="http://mrmasterix.github.io/">
+    Alexander Liashenko
+  </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="ShowSplashScreen" value="true" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="fullscreen" value="false" />
+    <preference name="android-windowSoftInputMode" value="stateVisible" />
+    <platform name="android">
+        <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <icon height="57" src="../resources/icons/ios/Icon.png" width="57" />
+        <icon height="114" src="../resources/icons/ios/Icon@2x.png" width="114" />
+        <icon height="29" src="../resources/icons/ios/Icon-29.png" width="29" />
+        <icon height="58" src="../resources/icons/ios/Icon-29@2x.png" width="58" />
+        <icon height="40" src="../resources/icons/ios/Icon-40.png" width="40" />
+        <icon height="80" src="../resources/icons/ios/Icon-40@2x.png" width="80" />
+        <icon height="50" src="../resources/icons/ios/Icon-50.png" width="50" />
+        <icon height="100" src="../resources/icons/ios/Icon-50@2x.png" width="100" />
+        <icon height="60" src="../resources/icons/ios/Icon-60.png" width="60" />
+        <icon height="120" src="../resources/icons/ios/Icon-60@2x.png" width="120" />
+        <icon height="180" src="../resources/icons/ios/Icon-60@3x.png" width="180" />
+        <icon height="72" src="../resources/icons/ios/Icon-72.png" width="72" />
+        <icon height="144" src="../resources/icons/ios/Icon-72@2x.png" width="144" />
+        <icon height="76" src="../resources/icons/ios/Icon-76.png" width="76" />
+        <icon height="152" src="../resources/icons/ios/Icon-76@2x.png" width="152" />
+        <splash height="480" src="../resources/splashs/ios/Default~iphone.png" width="320" />
+        <splash height="960" src="../resources/splashs/ios/Default@2x~iphone.png" width="640" />
+        <splash height="1024" src="../resources/splashs/ios/Default-Portrait~ipad.png" width="768" />
+        <splash height="2048" src="../resources/splashs/ios/Default-Portrait@2x~ipad.png" width="1536" />
+        <splash height="768" src="../resources/splashs/ios/Default-Landscape~ipad.png" width="1024" />
+        <splash height="1536" src="../resources/splashs/ios/Default-Landscape@2x~ipad.png" width="2048" />
+        <splash height="1136" src="../resources/splashs/ios/Default-568h@2x~iphone.png" width="640" />
+        <splash height="1334" src="../resources/splashs/ios/Default-667h.png" width="750" />
+        <splash height="2208" src="../resources/splashs/ios/Default-Portrait-736h.png" width="1242" />
+        <splash height="1242" src="../resources/splashs/ios/Default-Landscape-736h@3x.png" width="2208" />
+        <access origin="*" />
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
